@@ -1,0 +1,12 @@
+/* bugSolution.css */
+.container {
+  background-color: lightblue;
+}
+.container .box {
+  background-color: lightcoral;
+  /* more specific, overrides container styles */
+}
+.container.special {
+  background-color: lightgreen; /* more specific than .container */
+}
+/*The solution involves using more appropriate selectors or adjusting the order to ensure the correct styles are applied.*/
